@@ -69,7 +69,8 @@ public class HRManager extends Employee{
     @Override
     public String toString() {
         return "HRManager{" +
-                "juniorDevelopers=" + Arrays.toString(juniorDevelopers) +
+                "kendi bilgilerim= " + super.toString() +
+                ", juniorDevelopers=" + Arrays.toString(juniorDevelopers) +
                 ", midDevelopers=" + Arrays.toString(midDevelopers) +
                 ", seniorDevelopers=" + Arrays.toString(seniorDevelopers) +
                 '}';
